@@ -54,12 +54,12 @@
         public const int lunarShardMaxStock = 12;
 
         //Quickstep
-        public const float dashBarrierAmount = 0.1f;
+        public const float dashBarrierAmount = 0.2f;
 
         //Replenish
-        public const float healRadius = 16f;
-        public const float healAmount = 0.15f;
-        public const float healBarrier = 0.15f;
+        public const float healRadius = 32;
+        public const float healAmount = 0.3f;
+        public const float healBarrier = 0.3f;
 
         //Sacred Sunlight
         public const float healZoneChannelDuration = 1.5f;

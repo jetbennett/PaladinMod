@@ -33,7 +33,7 @@ namespace PaladinMod.Modules
         {
             paladinPrefab = CreatePrefab("RobPaladinBody", "mdlPaladin", new BodyInfo
             {
-                armor = 10f,
+                armor = 0f,
                 armorGrowth = StaticValues.armorPerLevel,
                 bodyName = "RobPaladinBody",
                 bodyNameToken = "PALADIN_NAME",
@@ -170,7 +170,7 @@ namespace PaladinMod.Modules
         {
             nemPaladinPrefab = CreatePrefab("NemesisbPaladinBody", "mdlNemPaladin", new BodyInfo
             {
-                armor = 10f,
+                armor = 0f,
                 armorGrowth = StaticValues.armorPerLevel,
                 bodyName = "NemesisPaladinBody",
                 bodyNameToken = "NEMPALADIN_NAME",
@@ -178,7 +178,7 @@ namespace PaladinMod.Modules
                 crosshair = RoR2.LegacyResourcesAPI.Load<GameObject>("Prefabs/Crosshair/SimpleDotCrosshair"),
                 damage = StaticValues.baseDamage,
                 healthGrowth = 64,
-                healthRegen = 1.5f,
+                healthRegen = 2.0f,
                 jumpCount = 1,
                 maxHealth = 160f,
                 subtitleNameToken = "NEMPALADIN_SUBTITLE",
