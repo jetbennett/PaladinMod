@@ -41,7 +41,7 @@ namespace PaladinMod.Modules
                 crosshair = RoR2.LegacyResourcesAPI.Load<GameObject>("Prefabs/Crosshair/SimpleDotCrosshair"),
                 damage = StaticValues.baseDamage,
                 healthGrowth = 64,
-                healthRegen = 1.5f,
+                healthRegen = 2.0f,
                 jumpCount = 1,
                 maxHealth = 160f,
                 subtitleNameToken = "PALADIN_SUBTITLE",
@@ -354,7 +354,7 @@ namespace PaladinMod.Modules
             bodyComponent.levelMaxHealth = bodyInfo.healthGrowth;
 
             bodyComponent.baseRegen = bodyInfo.healthRegen;
-            bodyComponent.levelRegen = bodyComponent.baseRegen * 0.2f;
+            bodyComponent.levelRegen = bodyComponent.baseRegen * 0.25f;
 
             bodyComponent.baseMaxShield = bodyInfo.shield;
             bodyComponent.levelMaxShield = bodyInfo.shieldGrowth;

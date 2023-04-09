@@ -29,7 +29,7 @@
         //Base stats
         public const float baseDamage = 13f;
         public const float baseDamagePerLevel = baseDamage * 0.2f;
-        public const float armorPerLevel = 1f;
+        public const float armorPerLevel = 2f;
 
         //Divine Blade
         public const float slashDamageCoefficient = 3.5f;
@@ -63,10 +63,10 @@
 
         //Sacred Sunlight
         public const float healZoneChannelDuration = 1.5f;
-        public const float healZoneRadius = 16f;
-        public const float healZoneAmount = 0.01f;
-        public const float healZoneBarrier = 0.01f;
-        public const float healZoneDuration = 12f;
+        public const float healZoneRadius = 32f;
+        public const float healZoneAmount = 0.02f;
+        public const float healZoneBarrier = 0.02f;
+        public const float healZoneDuration = 15f;
 
         //Hallowed Sunlight
         public const float scepterHealZoneChannelDuration = 1.5f;
