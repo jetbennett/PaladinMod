@@ -64,8 +64,8 @@
         //Sacred Sunlight
         public const float healZoneChannelDuration = 1.5f;
         public const float healZoneRadius = 32f;
-        public const float healZoneAmount = 0.02f;
-        public const float healZoneBarrier = 0.02f;
+        public const float healZoneAmount = 0.015f;
+        public const float healZoneBarrier = 0.015f;
         public const float healZoneDuration = 15f;
 
         //Hallowed Sunlight
